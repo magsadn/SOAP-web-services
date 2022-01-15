@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="countries-service" target="11" />
+      <module name="countries-service.main" target="11" />
+      <module name="countries-service.test" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
