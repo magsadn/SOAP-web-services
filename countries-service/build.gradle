@@ -68,9 +68,13 @@ dependencies {
     <faultstring xml:lang="en">Implementation of JAXB-API has not been found on module path or classpath.</faultstring>
     Then I added theese 3 lines to solve error.
     */
+    /*
     implementation('javax.xml.bind:jaxb-api:2.3.0')
     implementation('javax.activation:activation:1.1')
     implementation('org.glassfish.jaxb:jaxb-runtime:2.3.0')
+    */
+    //Edit: I found new solving and added only one line as below dependency
+    implementation 'org.glassfish.jaxb:jaxb-runtime'
 
     testImplementation('org.springframework.boot:spring-boot-starter-test')
 }
